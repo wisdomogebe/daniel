@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Orbunde</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5919072bb9.js" crossorigin="anonymous"></script>
+    <!--SWIPERJS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!--google fonts montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="container nav__container">
+                <a href="index.html" class="nav__logo"><img  src="images/daniel-logo.png" alt="nav logo"></a>
+                <ul class="nav__links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#exhibitions">Exhibitions</a></li>
+                </ul>
+                <ul class="nav__socials">
+                    <li><a href="https://instagram.com/daniegrapher_?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/iamrealdaniel21?s=09" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/iamrealdanielorbunde" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+                <button class="nav__toggle-btn" id="nav__toggle-open"><i class="fa-solid fa-bars"></i></button>
+                <button class="nav__toggle-btn" id="nav__toggle-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </nav>
+        <!----=========================end of nav=========================-->
+        <header>
+            <div class="container header__container">
+                <div class="header__left">
+                    <div class="header__image-bg"></div>
+                    <div class="header__image-lg">
+                        <img src="images/work-sample-four.jpg" alt="Header Image">
+                    </div>
+                    <div class="header__image-sm">
+                        <img src="images/work-sample-four.jpg" alt="Header Image">
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="header__head">
+                        <div class="empty header__empty"></div>
+                        <a class="header__tag">#Best photographer 2023</a>
+                    </div>
+                    <h1>See The Beauty of The world Through My Lens</h1>
+                    <p>
+                        Discover a world of enchanting imagery that speaks volume, as I artfully capture moments that will leave you spellbound. Join me in experiencing the beauty and wonder that awaits within  my lens.
+                    </p>
+                        <a href="mailto:danielorbunde21@gmail.com" class="header__btn-md">Lets Talk</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="header__frames">
+            <div class="header__frame">
+                <img src="images/fruit.jpg" alt="Header Frame One">
+            </div>
+            <div class="header__frame">
+                <img src="images/nature.jpg" alt="Header Frame Two">
+            </div>
+        </div>
+        <a href="mailto:danielorbunde21@gmail.com" class="contact__btn header__btn">
+            <i class="fa-solid fa-square-arrow-up-right"></i>
+            <p>CONTACT - SEND ME AN EMAIL</p>
+        </a>
+        <!--END OF HEADER -->
+
+        <section id="about">
+            <div class="container about__container">
+                <h2 class="about__title">About<br/>Daniel Orbunde</h2>
+                <a href="mailto:danielorbunde21@gmail.com" class="contact__btn about__btn">
+                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                    <p>CONTACT - SEND ME AN EMAIL</p>
+                </a>
+                <div class="about__left">
+                    <div class="about__image">
+                        <div class="about__image-bg">
+                        </div>
+                        <div class="about__image-lg">
+                            <img src="images/daniel-2.jpg" alt="Daniel">
+                        </div>
+                        <div class="about__image-sm">
+                            <img src="images/daniel-2.jpg" alt="Daniel">
+                        </div>
+                    </div>
+                </div>
+                <div class="about__right">
+                    <div class="empty about__empty"></div>
+                    <p>
+                        As a passionate photographer, I take immense pride in building meaningful connections with my clients. Your satisfaction is my utmost priority, and I am dedicated to providing you with the best possible photography services.
+                    </p>
+                    <p>
+                        From the initial consultation to the final delivery, I strive to create an experience that is personal and tailored to your vision. Your trust and happiness are priceless to me, and I will go above and beyond to ensure that every moment I capture reflects the emotions and essence of your special occasion. 
+                    </p>
+                    <p>
+                        With an unwavering commitment to detail and a genuine love for storytelling, I am here to preserve your cherished memories and transform them into timeless works of art. 
+                        Allow me to be your guide as we embark on a photography journey that celebrates your unique story.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--End of about section-->
+
+        <section id="gallery">
+            <div class="container gallery__container swiper mySwiper">
+                <div class="gallery__head">
+                    <h2 class="gallery__title">My Gallery</h2>
+                    <div class="empty gallery__empty"></div>
+                </div>
+                <p>
+                    Explore the gallery, filled with breathtaking images that capture the essence of cherished moments, transporting you to extraordinary experiences.
+                </p>
+                <div class="swiper-wrapper">
+                    <article class="swiper-slide">
+                        <img src="images/work-sample-one.jpg" alt="A man">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/work-sample-two.jpg" alt="A smiling girl sitting on a chair">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/work-sample-three.jpg" alt="A smiling girl standing">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/work-sample-four.jpg" alt="A man with a phone">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/work-sample-five.jpg" alt="A man with a bottle of drink">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/work-sample-six.jpg" alt="A girl sitting down">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/exhibitions/e2.jpg" alt="A lady sitting down">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/exhibitions/e3.jpg" alt="A boy wearing a cap">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/exhibitions/e4.jpg" alt="Daniel with a camera">
+                    </article>
+                    <article class="swiper-slide">
+                        <img src="images/exhibitions/e5.jpg" alt="A smiling boy with a phone">
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!--End of gallery-->
+
+        <section id="exhibitions">
+            <div class="container exhibitions__container">
+                <h2 class="exhibitions__title">Exhibitions</h2>
+                <div class="empty exhibitions__empty"></div>
+                <div class="exhibitions__head">
+                    <p>
+                        Step into my world of of captivating moments frozen in time, as I invite you to explore my awe-inspiring exhibitions.
+                    </p>
+                    <a href="mailto:danielorbunde21@gmail.com" class="contact__btn exhibitions__btn">
+                        <i class="fa-solid fa-square-arrow-up-right"></i>
+                        <p>CONTACT - SEND ME AN EMAIL</p>
+                    </a>
+                </div>
+                <div class="exhibitions__gallery">
+                    <article><img src="images/exhibitions/ev.jpg" alt="A lady"></article>
+                    <article><img src="images/exhibitions/e1.jpg" alt="A lady sitting down"></article>
+                    <article><img src="images/exhibitions/e2.jpg" alt="A lady sitting on a chair"></article>
+                    <article><img src="images/exhibitions/eh.jpg" alt="The sun shinning bright and a group of people walking"></article>
+                    <article><img src="images/exhibitions/e3.jpg" alt="A boy wearing a cap"></article>
+                    <article><img src="images/exhibitions/e4.jpg" alt="Daniel holding a camera"></article>
+                    <article><img src="images/exhibitions/e5.jpg" alt="A boy smiling and holding a phone"></article>
+                </div>
+            </div>
+        </section>
+        <!---------------------END OF EXHIBITIONS-------------------->
+    </main>
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__head">
+                <h2 class="footer__title">danielorbunde21@gmail.com</h2>
+                <a href="mailto:danielorbunde21@gmail.com" class="footer__btn"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+            <ul class="footer__socials">
+                <li><a href="https://instagram.com/daniegrapher_?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/iamrealdaniel21?s=09" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/iamrealdanielorbunde" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!--SWIPER JS CDN-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
